@@ -1,13 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-</body>
-
+    <title>CV RSSchool</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Belanosima&family=Nunito&display=swap"
+      rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-top">
+          <nav class="nav">
+            <a href="#x1" class="nav-link">About me</a>
+            <a href="#x2" class="nav-link">Skills</a>
+            <a href="#x3" class="nav-link">Code Example</a>
+            <a href="#x4" class="nav-link">Education</a>
+            <a href="#x5" class="nav-link">Language</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="main-content">
+          <div class="main-content-left">
+            <img src="pictures/me.png" alt="My_photo_with_cat">
+          </div>
+          <div class="main-content-right">
+            <h1 class="main-title">Yesmagambetov Alikhan</h1>
+            <h2 class="main-subtitle">JS beginner</h2>
+            <a href="https://t.me/brotizl" class="header-social-links">
+              <img src="images/tg.png" alt="https://t.me/brotizl">
+            </a>
+            <a href="mailto:new.alies@gmail.com" class="header-social-links">
+              <img src="images/mail.png" alt="new.alies@gmail.com">
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section class="about-me">
+      <div class="container">
+        <h2 class="about-me-title" id="x1">About me</h2>
+        <p class="about-me-text">
+          I am 28 years old. I was born in Karaganda and work as an engineer.
+          Since childhood, I love mathematics and always knew that I would work
+          in a technical specialty. My strengths are punctual, responsible, team
+          player.
+        </p>
+      </div>
+    </section>
+    <section class="skills">
+      <div class="container">
+        <h2 class="skill-title" id="x2">Skills</h2>
+        <div class="skill-list">
+          <ul>
+            <li>HTML</li>
+            <li>GIT</li>
+            <li>JS Basics</li>
+            <li>Photoshop</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="coding">
+      <div class="container">
+        <h2 class="coding-title" id="x3">Code example</h2>
+        <pre class="coding-box">
+          <code>
+//BMI = mass / (height * height)
+const weightMark = 78;
+const heightMark = 1.69;
+const weightJohn = 92;
+const heightJohn = 1.95;
+let johnBMI;
+let markBMI;
+let markHeigherBMR;
+johnBMI = weightJohn / heightJohn ** 2;
+markBMI = weightMark / heightMark ** 2;
+markHeigherBMR = markBMI > johnBMI;
+console.log(johnBMI, markBMI, markHeigherBMR);
+        </code>
+      </pre>
+      </div>
+    </section>
+    <section class="education">
+      <div class="container">
+        <div class="education-content">
+          <div class="education-left">
+            <h2 class="education-title" id="x4">Education</h2>
+            <p>
+              Karaganda Technical University<br>
+              Faculty of power engineering,<br>
+              automation and telecommunications
+            </p>
+          </div>
+          <div class="language-right">
+            <h2 class="language-title" id="x5">Language</h2>
+            <ul>
+              <li>Kazakh - native</li>
+              <li>Russian - native</li>
+              <li>English - B1</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <a href="https://rs.school/js/">
+            <img
+              src="images/rs_school_js.svg"
+              width="75"
+              height="75"
+              alt="https://rs.school/js/">
+          </a>
+          <p>2023</p>
+          <a href="https://github.com/ALIESXXX">
+            <img
+              src="images/github.svg"
+              width="75"
+              height="75"
+              alt="https://github.com/ALIESXXX">
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
