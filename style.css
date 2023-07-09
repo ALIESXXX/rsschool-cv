@@ -26,11 +26,16 @@ body {
 .header-top {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.header-top a {
+  height: 50px;
 }
 
 .nav-link {
   margin: 10px;
-  color: aliceblue;
+  color: rgb(9, 9, 9);
 }
 
 .main {
@@ -42,8 +47,12 @@ body {
 }
 
 .main-content {
-  justify-content: center;
+  display: flex;
+  justify-content: space-between;
   padding: 20px;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .about-me {
@@ -52,6 +61,15 @@ body {
     rgb(205, 249, 236),
     rgb(200, 249, 236)
   );
+  padding-bottom: 20px;
+}
+
+.about-me-title {
+  padding-top: 20px;
+}
+
+.skill-title {
+  padding-top: 20px;
 }
 
 .skills {
@@ -62,8 +80,18 @@ body {
   );
 }
 
+.skill-list {
+  border: 4mm ridge #5f9ea0;
+  background-color: #5f9ea0;
+  text-align: right;
+}
+
 .skill-list ul {
   list-style-type: none;
+}
+
+.coding-title {
+  padding-top: 40px;
 }
 
 .coding {
@@ -74,14 +102,24 @@ body {
   );
 }
 
-.education-content {
+.coding-box {
+  border: 4mm ridge #5f9ea0;
+  background-color: #5f9ea0;
+  text-align: left;
+}
+
+.education {
   background: linear-gradient(
     to bottom,
     rgb(205, 249, 236),
     rgb(210, 249, 236)
   );
+}
+
+.education-content {
   display: flex;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+  padding-top: 20px;
 }
 
 .education-left {
