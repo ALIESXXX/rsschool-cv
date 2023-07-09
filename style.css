@@ -1,0 +1,152 @@
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 25px;
+  color: #000;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  font-family: "Belanosima", sans-serif;
+  padding: 15px;
+  background-color: cadetblue;
+}
+
+.header-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-top a {
+  height: 50px;
+}
+
+.nav-link {
+  margin: 10px;
+  color: rgb(9, 9, 9);
+}
+
+.main {
+  background: linear-gradient(
+    to bottom,
+    rgb(220, 249, 236),
+    rgb(205, 249, 236)
+  );
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.about-me {
+  background: linear-gradient(
+    to bottom,
+    rgb(205, 249, 236),
+    rgb(200, 249, 236)
+  );
+  padding-bottom: 20px;
+}
+
+.about-me-title {
+  padding-top: 20px;
+}
+
+.skill-title {
+  padding-top: 20px;
+}
+
+.skills {
+  background: linear-gradient(
+    to bottom,
+    rgb(200, 249, 236),
+    rgb(195, 249, 236)
+  );
+}
+
+.skill-list {
+  border: 4mm ridge #5f9ea0;
+  background-color: #5f9ea0;
+  text-align: right;
+}
+
+.skill-list ul {
+  list-style-type: none;
+}
+
+.coding-title {
+  padding-top: 40px;
+}
+
+.coding {
+  background: linear-gradient(
+    to bottom,
+    rgb(195, 249, 236),
+    rgb(205, 249, 236)
+  );
+}
+
+.coding-box {
+  border: 4mm ridge #5f9ea0;
+  background-color: #5f9ea0;
+  text-align: left;
+}
+
+.education {
+  background: linear-gradient(
+    to bottom,
+    rgb(205, 249, 236),
+    rgb(210, 249, 236)
+  );
+}
+
+.education-content {
+  display: flex;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.education-left {
+  width: 50%;
+}
+
+.language-right {
+  width: 50%;
+}
+
+.language-right ul {
+  list-style: none;
+}
+
+.footer {
+  background-color: cadetblue;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Belanosima", sans-serif;
+  font-size: 25px;
+  color: #000;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
